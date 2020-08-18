@@ -1,26 +1,35 @@
 package Space;
 
 public class main {
+
     public static void main(String[] args) {
 
-        apartment apartment = new apartment();
+        Apartment apartment = new Apartment();
         apartment.setArea(150);
         apartment.setPrice(35400);
-        apartment.setTotal_price(4779000);
-        System.out.println(apartment);
+        apartment.setTotalPrice(4779000);
 
-        magazine magazine = new magazine();
+        System.out.println("apartment area = " + apartment.getArea());
+        System.out.println("apartment price = " + apartment.getPrice());
+        System.out.println("apartment total price = " + apartment.getTotalPrice());
+
+        Magazine magazine = new Magazine();
         magazine.setArea(850);
         magazine.setPrice(25000);
-        magazine.setTotal_price(21250000);
-        System.out.println(magazine);
+        magazine.setTotalPrice(21250000);
 
-        house house = new house();
+        System.out.println("magazine area = " + apartment.getArea());
+        System.out.println("magazine price = " + apartment.getPrice());
+        System.out.println("magazine total price = " + apartment.getTotalPrice());
+
+        House house = new House();
         house.setArea(250);
         house.setPrice(27400);
-        house.setTotal_price(6850000);
-        System.out.println(house);
+        house.setTotalPrice(6850000);
 
+        System.out.println("house area = " + apartment.getArea());
+        System.out.println("house price = " + apartment.getPrice());
+        System.out.println("house total price = " + apartment.getTotalPrice());
 
     }
 }
