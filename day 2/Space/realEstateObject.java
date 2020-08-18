@@ -2,11 +2,11 @@ package Space;
 
 // Объекты недвижимости
 
-public abstract class realEstateObject {
-        private int area;
-        private int price;
-        private int total_price;
+public abstract class RealEstateObject {
 
+    private int area;                                       // Площадь
+    private int price;                                      // Цена за 1 м^2
+    private int totalPrice;                                 // Полная цена
 
     public int getArea() {
         return area;
@@ -24,11 +24,12 @@ public abstract class realEstateObject {
         this.price = price;
     }
 
-    public int getTotal_price() {
-        return total_price;
+    public int getTotalPrice() {
+        return totalPrice;
     }
 
-    public void setTotal_price(int total_price) {
-        this.total_price = total_price;
+    public void setTotalPrice(int totalPrice) {
+        this.totalPrice = totalPrice;
     }
 }
+
