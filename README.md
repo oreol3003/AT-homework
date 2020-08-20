@@ -1,5 +1,5 @@
 # AT-homework
-<p style="color:green;">day1 - 100%</p>
+<p style="color:#0000FF;">day1 - 100%</p>
 <p>day2 - 100%</p>
 <p>day3 -|</p>
 <p>day4 -|   75%</p>
