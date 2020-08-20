@@ -1,7 +1,7 @@
 # AT-homework
 <p>day1 - 100%</p>
-day2 - 100%
-day3 -|
-day4 -| 75%
-day5 -|
-day6 - 50%
+<p>day2 - 100%</p>
+<p>day3 -|</p>
+<p>day4 -| 75%</p>
+<p>day5 -|</p>
+<p>day6 - 50%</p>
